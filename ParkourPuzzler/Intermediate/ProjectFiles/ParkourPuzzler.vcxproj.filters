@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\ParkourPuzzler.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{D4C78DD4-75F0-4934-AC5E-1FF92CB3C8C1}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ParkourPuzzler.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\ParkourPuzzlerEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{33854F5C-F105-4F8A-8E52-C60CA22A20FD}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\ParkourPuzzler">
+			<UniqueIdentifier>{3DF90409-00EB-4155-BD87-1D989CD7E54F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ParkourPuzzler\ParkourPuzzler.Build.cs">
+			<Filter>Source\ParkourPuzzler</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\ParkourPuzzler\ParkourPuzzler.cpp">
+			<Filter>Source\ParkourPuzzler</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ParkourPuzzler\ParkourPuzzler.h">
+			<Filter>Source\ParkourPuzzler</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ParkourPuzzler\ParkourPuzzlerCharacter.cpp">
+			<Filter>Source\ParkourPuzzler</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ParkourPuzzler\ParkourPuzzlerCharacter.h">
+			<Filter>Source\ParkourPuzzler</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ParkourPuzzler\ParkourPuzzlerGameMode.cpp">
+			<Filter>Source\ParkourPuzzler</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ParkourPuzzler\ParkourPuzzlerGameMode.h">
+			<Filter>Source\ParkourPuzzler</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ParkourPuzzler\ParkourPuzzlerHUD.cpp">
+			<Filter>Source\ParkourPuzzler</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ParkourPuzzler\ParkourPuzzlerHUD.h">
+			<Filter>Source\ParkourPuzzler</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ParkourPuzzler\ParkourPuzzlerProjectile.cpp">
+			<Filter>Source\ParkourPuzzler</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ParkourPuzzler\ParkourPuzzlerProjectile.h">
+			<Filter>Source\ParkourPuzzler</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

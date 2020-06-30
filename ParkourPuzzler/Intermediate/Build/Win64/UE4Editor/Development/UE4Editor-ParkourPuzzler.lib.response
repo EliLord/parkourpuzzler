@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ParkourPuzzler.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Intermediate\Build\Win64\UE4Editor\Development\ParkourPuzzler\ParkourPuzzler.cpp.obj"
+"C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Intermediate\Build\Win64\UE4Editor\Development\ParkourPuzzler\ParkourPuzzlerCharacter.cpp.obj"
+"C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Intermediate\Build\Win64\UE4Editor\Development\ParkourPuzzler\ParkourPuzzlerGameMode.cpp.obj"
+"C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Intermediate\Build\Win64\UE4Editor\Development\ParkourPuzzler\ParkourPuzzlerHUD.cpp.obj"
+"C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Intermediate\Build\Win64\UE4Editor\Development\ParkourPuzzler\ParkourPuzzlerProjectile.cpp.obj"
+"C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Intermediate\Build\Win64\UE4Editor\Development\ParkourPuzzler\ParkourPuzzler.init.gen.cpp.obj"
+"C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Intermediate\Build\Win64\UE4Editor\Development\ParkourPuzzler\ParkourPuzzlerCharacter.gen.cpp.obj"
+"C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Intermediate\Build\Win64\UE4Editor\Development\ParkourPuzzler\ParkourPuzzlerGameMode.gen.cpp.obj"
+"C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Intermediate\Build\Win64\UE4Editor\Development\ParkourPuzzler\ParkourPuzzlerHUD.gen.cpp.obj"
+"C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Intermediate\Build\Win64\UE4Editor\Development\ParkourPuzzler\ParkourPuzzlerProjectile.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ParkourPuzzler\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ParkourPuzzler.lib"
