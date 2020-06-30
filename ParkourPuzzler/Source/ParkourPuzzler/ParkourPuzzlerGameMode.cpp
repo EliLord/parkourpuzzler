@@ -1,4 +1,4 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "ParkourPuzzlerGameMode.h"
 #include "ParkourPuzzlerHUD.h"

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ParkourPuzzler",
+			"Path": "C:\\UE4Projects\\ParkourPuzzler\\Source\\ParkourPuzzler.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ParkourPuzzlerEditor",
+			"Path": "C:\\UE4Projects\\ParkourPuzzler\\Source\\ParkourPuzzlerEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

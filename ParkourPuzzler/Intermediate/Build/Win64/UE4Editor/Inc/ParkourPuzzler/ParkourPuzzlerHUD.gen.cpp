@@ -1,12 +1,11 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "GeneratedCppIncludes.h"
-#include "ParkourPuzzlerHUD.h"
-PRAGMA_DISABLE_OPTIMIZATION
+#include "UObject/GeneratedCppIncludes.h"
+#include "ParkourPuzzler/ParkourPuzzlerHUD.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -26,41 +25,62 @@ void EmptyLinkFunctionForGeneratedCodeParkourPuzzlerHUD() {}
 	{
 		return AParkourPuzzlerHUD::StaticClass();
 	}
+	struct Z_Construct_UClass_AParkourPuzzlerHUD_Statics
+	{
+		static UObject* (*const DependentSingletons[])();
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
+#endif
+		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
+		static const UE4CodeGen_Private::FClassParams ClassParams;
+	};
+	UObject* (*const Z_Construct_UClass_AParkourPuzzlerHUD_Statics::DependentSingletons[])() = {
+		(UObject* (*)())Z_Construct_UClass_AHUD,
+		(UObject* (*)())Z_Construct_UPackage__Script_ParkourPuzzler,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParkourPuzzlerHUD_Statics::Class_MetaDataParams[] = {
+		{ "HideCategories", "Rendering Actor Input Replication" },
+		{ "IncludePath", "ParkourPuzzlerHUD.h" },
+		{ "ModuleRelativePath", "ParkourPuzzlerHUD.h" },
+		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
+	};
+#endif
+	const FCppClassTypeInfoStatic Z_Construct_UClass_AParkourPuzzlerHUD_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<AParkourPuzzlerHUD>::IsAbstract,
+	};
+	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AParkourPuzzlerHUD_Statics::ClassParams = {
+		&AParkourPuzzlerHUD::StaticClass,
+		"Game",
+		&StaticCppClassTypeInfo,
+		DependentSingletons,
+		nullptr,
+		nullptr,
+		nullptr,
+		UE_ARRAY_COUNT(DependentSingletons),
+		0,
+		0,
+		0,
+		0x008002ACu,
+		METADATA_PARAMS(Z_Construct_UClass_AParkourPuzzlerHUD_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AParkourPuzzlerHUD_Statics::Class_MetaDataParams))
+	};
 	UClass* Z_Construct_UClass_AParkourPuzzlerHUD()
 	{
-		static UClass* OuterClass = NULL;
+		static UClass* OuterClass = nullptr;
 		if (!OuterClass)
 		{
-			Z_Construct_UClass_AHUD();
-			Z_Construct_UPackage__Script_ParkourPuzzler();
-			OuterClass = AParkourPuzzlerHUD::StaticClass();
-			if (!(OuterClass->ClassFlags & CLASS_Constructed))
-			{
-				UObjectForceRegistration(OuterClass);
-				OuterClass->ClassFlags |= (EClassFlags)0x2080028Cu;
-
-
-				OuterClass->ClassConfigName = FName(TEXT("Game"));
-				static TCppClassTypeInfo<TCppClassTypeTraits<AParkourPuzzlerHUD> > StaticCppClassTypeInfo;
-				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
-				OuterClass->StaticLink();
-#if WITH_METADATA
-				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
-				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Rendering Actor Input Replication"));
-				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("ParkourPuzzlerHUD.h"));
-				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("ParkourPuzzlerHUD.h"));
-				MetaData->SetValue(OuterClass, TEXT("ShowCategories"), TEXT("Input|MouseInput Input|TouchInput"));
-#endif
-			}
+			UE4CodeGen_Private::ConstructUClass(OuterClass, Z_Construct_UClass_AParkourPuzzlerHUD_Statics::ClassParams);
 		}
-		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AParkourPuzzlerHUD, 3625967966);
+	IMPLEMENT_CLASS(AParkourPuzzlerHUD, 47204040);
+	template<> PARKOURPUZZLER_API UClass* StaticClass<AParkourPuzzlerHUD>()
+	{
+		return AParkourPuzzlerHUD::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AParkourPuzzlerHUD(Z_Construct_UClass_AParkourPuzzlerHUD, &AParkourPuzzlerHUD::StaticClass, TEXT("/Script/ParkourPuzzler"), TEXT("AParkourPuzzlerHUD"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AParkourPuzzlerHUD);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)
 #endif
-PRAGMA_ENABLE_OPTIMIZATION

@@ -1,12 +1,11 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "GeneratedCppIncludes.h"
-#include "ParkourPuzzlerGameMode.h"
-PRAGMA_DISABLE_OPTIMIZATION
+#include "UObject/GeneratedCppIncludes.h"
+#include "ParkourPuzzler/ParkourPuzzlerGameMode.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -26,40 +25,62 @@ void EmptyLinkFunctionForGeneratedCodeParkourPuzzlerGameMode() {}
 	{
 		return AParkourPuzzlerGameMode::StaticClass();
 	}
+	struct Z_Construct_UClass_AParkourPuzzlerGameMode_Statics
+	{
+		static UObject* (*const DependentSingletons[])();
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
+#endif
+		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
+		static const UE4CodeGen_Private::FClassParams ClassParams;
+	};
+	UObject* (*const Z_Construct_UClass_AParkourPuzzlerGameMode_Statics::DependentSingletons[])() = {
+		(UObject* (*)())Z_Construct_UClass_AGameModeBase,
+		(UObject* (*)())Z_Construct_UPackage__Script_ParkourPuzzler,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParkourPuzzlerGameMode_Statics::Class_MetaDataParams[] = {
+		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
+		{ "IncludePath", "ParkourPuzzlerGameMode.h" },
+		{ "ModuleRelativePath", "ParkourPuzzlerGameMode.h" },
+		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
+	};
+#endif
+	const FCppClassTypeInfoStatic Z_Construct_UClass_AParkourPuzzlerGameMode_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<AParkourPuzzlerGameMode>::IsAbstract,
+	};
+	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AParkourPuzzlerGameMode_Statics::ClassParams = {
+		&AParkourPuzzlerGameMode::StaticClass,
+		"Game",
+		&StaticCppClassTypeInfo,
+		DependentSingletons,
+		nullptr,
+		nullptr,
+		nullptr,
+		UE_ARRAY_COUNT(DependentSingletons),
+		0,
+		0,
+		0,
+		0x008802ACu,
+		METADATA_PARAMS(Z_Construct_UClass_AParkourPuzzlerGameMode_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AParkourPuzzlerGameMode_Statics::Class_MetaDataParams))
+	};
 	UClass* Z_Construct_UClass_AParkourPuzzlerGameMode()
 	{
-		static UClass* OuterClass = NULL;
+		static UClass* OuterClass = nullptr;
 		if (!OuterClass)
 		{
-			Z_Construct_UClass_AGameModeBase();
-			Z_Construct_UPackage__Script_ParkourPuzzler();
-			OuterClass = AParkourPuzzlerGameMode::StaticClass();
-			if (!(OuterClass->ClassFlags & CLASS_Constructed))
-			{
-				UObjectForceRegistration(OuterClass);
-				OuterClass->ClassFlags |= (EClassFlags)0x20880288u;
-
-
-				static TCppClassTypeInfo<TCppClassTypeTraits<AParkourPuzzlerGameMode> > StaticCppClassTypeInfo;
-				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
-				OuterClass->StaticLink();
-#if WITH_METADATA
-				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
-				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation"));
-				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("ParkourPuzzlerGameMode.h"));
-				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("ParkourPuzzlerGameMode.h"));
-				MetaData->SetValue(OuterClass, TEXT("ShowCategories"), TEXT("Input|MouseInput Input|TouchInput"));
-#endif
-			}
+			UE4CodeGen_Private::ConstructUClass(OuterClass, Z_Construct_UClass_AParkourPuzzlerGameMode_Statics::ClassParams);
 		}
-		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AParkourPuzzlerGameMode, 1540880122);
+	IMPLEMENT_CLASS(AParkourPuzzlerGameMode, 3273799439);
+	template<> PARKOURPUZZLER_API UClass* StaticClass<AParkourPuzzlerGameMode>()
+	{
+		return AParkourPuzzlerGameMode::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AParkourPuzzlerGameMode(Z_Construct_UClass_AParkourPuzzlerGameMode, &AParkourPuzzlerGameMode::StaticClass, TEXT("/Script/ParkourPuzzler"), TEXT("AParkourPuzzlerGameMode"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AParkourPuzzlerGameMode);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)
 #endif
-PRAGMA_ENABLE_OPTIMIZATION

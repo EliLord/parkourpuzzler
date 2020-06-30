@@ -1,12 +1,11 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "GeneratedCppIncludes.h"
-#include "ParkourPuzzlerProjectile.h"
-PRAGMA_DISABLE_OPTIMIZATION
+#include "UObject/GeneratedCppIncludes.h"
+#include "ParkourPuzzler/ParkourPuzzlerProjectile.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -14,27 +13,38 @@ PRAGMA_DISABLE_OPTIMIZATION
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeParkourPuzzlerProjectile() {}
 // Cross Module References
-	PARKOURPUZZLER_API UFunction* Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit();
+	PARKOURPUZZLER_API UClass* Z_Construct_UClass_AParkourPuzzlerProjectile_NoRegister();
 	PARKOURPUZZLER_API UClass* Z_Construct_UClass_AParkourPuzzlerProjectile();
+	ENGINE_API UClass* Z_Construct_UClass_AActor();
+	UPackage* Z_Construct_UPackage__Script_ParkourPuzzler();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
-	PARKOURPUZZLER_API UClass* Z_Construct_UClass_AParkourPuzzlerProjectile_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_AActor();
-	UPackage* Z_Construct_UPackage__Script_ParkourPuzzler();
 	ENGINE_API UClass* Z_Construct_UClass_UProjectileMovementComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AParkourPuzzlerProjectile::execOnHit)
+	{
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_HitComp);
+		P_GET_OBJECT(AActor,Z_Param_OtherActor);
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp);
+		P_GET_STRUCT(FVector,Z_Param_NormalImpulse);
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_Hit);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->OnHit(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit);
+		P_NATIVE_END;
+	}
 	void AParkourPuzzlerProjectile::StaticRegisterNativesAParkourPuzzlerProjectile()
 	{
 		UClass* Class = AParkourPuzzlerProjectile::StaticClass();
-		static const TNameNativePtrPair<ANSICHAR> AnsiFuncs[] = {
-			{ "OnHit", (Native)&AParkourPuzzlerProjectile::execOnHit },
+		static const FNameNativePtrPair Funcs[] = {
+			{ "OnHit", &AParkourPuzzlerProjectile::execOnHit },
 		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, AnsiFuncs, ARRAY_COUNT(AnsiFuncs));
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
-	UFunction* Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit()
+	struct Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics
 	{
 		struct ParkourPuzzlerProjectile_eventOnHit_Parms
 		{
@@ -44,26 +54,67 @@ void EmptyLinkFunctionForGeneratedCodeParkourPuzzlerProjectile() {}
 			FVector NormalImpulse;
 			FHitResult Hit;
 		};
-		UObject* Outer = Z_Construct_UClass_AParkourPuzzlerProjectile();
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Hit_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Hit;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_NormalImpulse;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OtherComp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherComp;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OtherActor;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitComp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HitComp;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::NewProp_Hit_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::NewProp_Hit = { "Hit", nullptr, (EPropertyFlags)0x0010008008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ParkourPuzzlerProjectile_eventOnHit_Parms, Hit), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::NewProp_Hit_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::NewProp_Hit_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::NewProp_NormalImpulse = { "NormalImpulse", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ParkourPuzzlerProjectile_eventOnHit_Parms, NormalImpulse), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::NewProp_OtherComp_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::NewProp_OtherComp = { "OtherComp", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ParkourPuzzlerProjectile_eventOnHit_Parms, OtherComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::NewProp_OtherComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::NewProp_OtherComp_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ParkourPuzzlerProjectile_eventOnHit_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::NewProp_HitComp_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::NewProp_HitComp = { "HitComp", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ParkourPuzzlerProjectile_eventOnHit_Parms, HitComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::NewProp_HitComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::NewProp_HitComp_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::NewProp_Hit,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::NewProp_NormalImpulse,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::NewProp_OtherComp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::NewProp_OtherActor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::NewProp_HitComp,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "/** called when projectile hits something */" },
+		{ "ModuleRelativePath", "ParkourPuzzlerProjectile.h" },
+		{ "ToolTip", "called when projectile hits something" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AParkourPuzzlerProjectile, nullptr, "OnHit", nullptr, nullptr, sizeof(ParkourPuzzlerProjectile_eventOnHit_Parms), Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00C20401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit()
+	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			ReturnFunction = new(EC_InternalUseOnlyConstructor, Outer, TEXT("OnHit"), RF_Public|RF_Transient|RF_MarkAsNative) UFunction(FObjectInitializer(), nullptr, (EFunctionFlags)0x00C20401, 65535, sizeof(ParkourPuzzlerProjectile_eventOnHit_Parms));
-			UProperty* NewProp_Hit = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("Hit"), RF_Public|RF_Transient|RF_MarkAsNative) UStructProperty(CPP_PROPERTY_BASE(Hit, ParkourPuzzlerProjectile_eventOnHit_Parms), 0x0010008008000182, Z_Construct_UScriptStruct_FHitResult());
-			UProperty* NewProp_NormalImpulse = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("NormalImpulse"), RF_Public|RF_Transient|RF_MarkAsNative) UStructProperty(CPP_PROPERTY_BASE(NormalImpulse, ParkourPuzzlerProjectile_eventOnHit_Parms), 0x0010000000000080, Z_Construct_UScriptStruct_FVector());
-			UProperty* NewProp_OtherComp = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherComp"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(OtherComp, ParkourPuzzlerProjectile_eventOnHit_Parms), 0x0010000000080080, Z_Construct_UClass_UPrimitiveComponent_NoRegister());
-			UProperty* NewProp_OtherActor = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("OtherActor"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(OtherActor, ParkourPuzzlerProjectile_eventOnHit_Parms), 0x0010000000000080, Z_Construct_UClass_AActor_NoRegister());
-			UProperty* NewProp_HitComp = new(EC_InternalUseOnlyConstructor, ReturnFunction, TEXT("HitComp"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(HitComp, ParkourPuzzlerProjectile_eventOnHit_Parms), 0x0010000000080080, Z_Construct_UClass_UPrimitiveComponent_NoRegister());
-			ReturnFunction->Bind();
-			ReturnFunction->StaticLink();
-#if WITH_METADATA
-			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
-			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("ParkourPuzzlerProjectile.h"));
-			MetaData->SetValue(ReturnFunction, TEXT("ToolTip"), TEXT("called when projectile hits something"));
-			MetaData->SetValue(NewProp_Hit, TEXT("NativeConst"), TEXT(""));
-			MetaData->SetValue(NewProp_OtherComp, TEXT("EditInline"), TEXT("true"));
-			MetaData->SetValue(NewProp_HitComp, TEXT("EditInline"), TEXT("true"));
-#endif
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -71,52 +122,98 @@ void EmptyLinkFunctionForGeneratedCodeParkourPuzzlerProjectile() {}
 	{
 		return AParkourPuzzlerProjectile::StaticClass();
 	}
+	struct Z_Construct_UClass_AParkourPuzzlerProjectile_Statics
+	{
+		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
+#endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileMovement_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ProjectileMovement;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CollisionComp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CollisionComp;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
+		static const UE4CodeGen_Private::FClassParams ClassParams;
+	};
+	UObject* (*const Z_Construct_UClass_AParkourPuzzlerProjectile_Statics::DependentSingletons[])() = {
+		(UObject* (*)())Z_Construct_UClass_AActor,
+		(UObject* (*)())Z_Construct_UPackage__Script_ParkourPuzzler,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AParkourPuzzlerProjectile_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit, "OnHit" }, // 1513370233
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParkourPuzzlerProjectile_Statics::Class_MetaDataParams[] = {
+		{ "IncludePath", "ParkourPuzzlerProjectile.h" },
+		{ "ModuleRelativePath", "ParkourPuzzlerProjectile.h" },
+	};
+#endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParkourPuzzlerProjectile_Statics::NewProp_ProjectileMovement_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Movement" },
+		{ "Comment", "/** Projectile movement component */" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ParkourPuzzlerProjectile.h" },
+		{ "ToolTip", "Projectile movement component" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParkourPuzzlerProjectile_Statics::NewProp_ProjectileMovement = { "ProjectileMovement", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParkourPuzzlerProjectile, ProjectileMovement), Z_Construct_UClass_UProjectileMovementComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParkourPuzzlerProjectile_Statics::NewProp_ProjectileMovement_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AParkourPuzzlerProjectile_Statics::NewProp_ProjectileMovement_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParkourPuzzlerProjectile_Statics::NewProp_CollisionComp_MetaData[] = {
+		{ "Category", "Projectile" },
+		{ "Comment", "/** Sphere collision component */" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ParkourPuzzlerProjectile.h" },
+		{ "ToolTip", "Sphere collision component" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParkourPuzzlerProjectile_Statics::NewProp_CollisionComp = { "CollisionComp", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParkourPuzzlerProjectile, CollisionComp), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParkourPuzzlerProjectile_Statics::NewProp_CollisionComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AParkourPuzzlerProjectile_Statics::NewProp_CollisionComp_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AParkourPuzzlerProjectile_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParkourPuzzlerProjectile_Statics::NewProp_ProjectileMovement,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParkourPuzzlerProjectile_Statics::NewProp_CollisionComp,
+	};
+	const FCppClassTypeInfoStatic Z_Construct_UClass_AParkourPuzzlerProjectile_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<AParkourPuzzlerProjectile>::IsAbstract,
+	};
+	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AParkourPuzzlerProjectile_Statics::ClassParams = {
+		&AParkourPuzzlerProjectile::StaticClass,
+		"Game",
+		&StaticCppClassTypeInfo,
+		DependentSingletons,
+		FuncInfo,
+		Z_Construct_UClass_AParkourPuzzlerProjectile_Statics::PropPointers,
+		nullptr,
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(Z_Construct_UClass_AParkourPuzzlerProjectile_Statics::PropPointers),
+		0,
+		0x008000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_AParkourPuzzlerProjectile_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AParkourPuzzlerProjectile_Statics::Class_MetaDataParams))
+	};
 	UClass* Z_Construct_UClass_AParkourPuzzlerProjectile()
 	{
-		static UClass* OuterClass = NULL;
+		static UClass* OuterClass = nullptr;
 		if (!OuterClass)
 		{
-			Z_Construct_UClass_AActor();
-			Z_Construct_UPackage__Script_ParkourPuzzler();
-			OuterClass = AParkourPuzzlerProjectile::StaticClass();
-			if (!(OuterClass->ClassFlags & CLASS_Constructed))
-			{
-				UObjectForceRegistration(OuterClass);
-				OuterClass->ClassFlags |= (EClassFlags)0x20800080u;
-
-				OuterClass->LinkChild(Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit());
-
-				UProperty* NewProp_ProjectileMovement = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ProjectileMovement"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(ProjectileMovement, AParkourPuzzlerProjectile), 0x00400000000a001d, Z_Construct_UClass_UProjectileMovementComponent_NoRegister());
-				UProperty* NewProp_CollisionComp = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CollisionComp"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(CollisionComp, AParkourPuzzlerProjectile), 0x00400000000b0009, Z_Construct_UClass_USphereComponent_NoRegister());
-				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AParkourPuzzlerProjectile_OnHit(), "OnHit"); // 419701359
-				OuterClass->ClassConfigName = FName(TEXT("Game"));
-				static TCppClassTypeInfo<TCppClassTypeTraits<AParkourPuzzlerProjectile> > StaticCppClassTypeInfo;
-				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
-				OuterClass->StaticLink();
-#if WITH_METADATA
-				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
-				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("ParkourPuzzlerProjectile.h"));
-				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("ParkourPuzzlerProjectile.h"));
-				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("AllowPrivateAccess"), TEXT("true"));
-				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("Category"), TEXT("Movement"));
-				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("EditInline"), TEXT("true"));
-				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("ModuleRelativePath"), TEXT("ParkourPuzzlerProjectile.h"));
-				MetaData->SetValue(NewProp_ProjectileMovement, TEXT("ToolTip"), TEXT("Projectile movement component"));
-				MetaData->SetValue(NewProp_CollisionComp, TEXT("Category"), TEXT("Projectile"));
-				MetaData->SetValue(NewProp_CollisionComp, TEXT("EditInline"), TEXT("true"));
-				MetaData->SetValue(NewProp_CollisionComp, TEXT("ModuleRelativePath"), TEXT("ParkourPuzzlerProjectile.h"));
-				MetaData->SetValue(NewProp_CollisionComp, TEXT("ToolTip"), TEXT("Sphere collision component"));
-#endif
-			}
+			UE4CodeGen_Private::ConstructUClass(OuterClass, Z_Construct_UClass_AParkourPuzzlerProjectile_Statics::ClassParams);
 		}
-		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AParkourPuzzlerProjectile, 1696141017);
+	IMPLEMENT_CLASS(AParkourPuzzlerProjectile, 1760241805);
+	template<> PARKOURPUZZLER_API UClass* StaticClass<AParkourPuzzlerProjectile>()
+	{
+		return AParkourPuzzlerProjectile::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AParkourPuzzlerProjectile(Z_Construct_UClass_AParkourPuzzlerProjectile, &AParkourPuzzlerProjectile::StaticClass, TEXT("/Script/ParkourPuzzler"), TEXT("AParkourPuzzlerProjectile"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AParkourPuzzlerProjectile);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)
 #endif
-PRAGMA_ENABLE_OPTIMIZATION

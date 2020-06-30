@@ -1,12 +1,11 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "GeneratedCppIncludes.h"
-#include "ParkourPuzzlerCharacter.h"
-PRAGMA_DISABLE_OPTIMIZATION
+#include "UObject/GeneratedCppIncludes.h"
+#include "ParkourPuzzler/ParkourPuzzlerCharacter.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -20,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeParkourPuzzlerCharacter() {}
 	UPackage* Z_Construct_UPackage__Script_ParkourPuzzler();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
-	PARKOURPUZZLER_API UClass* Z_Construct_UClass_AParkourPuzzlerProjectile_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	PARKOURPUZZLER_API UClass* Z_Construct_UClass_AParkourPuzzlerProjectile_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	HEADMOUNTEDDISPLAY_API UClass* Z_Construct_UClass_UMotionControllerComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
@@ -35,112 +34,290 @@ void EmptyLinkFunctionForGeneratedCodeParkourPuzzlerCharacter() {}
 	{
 		return AParkourPuzzlerCharacter::StaticClass();
 	}
+	struct Z_Construct_UClass_AParkourPuzzlerCharacter_Statics
+	{
+		static UObject* (*const DependentSingletons[])();
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
+#endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bUsingMotionControllers_MetaData[];
+#endif
+		static void NewProp_bUsingMotionControllers_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bUsingMotionControllers;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FireAnimation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FireAnimation;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FireSound_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FireSound;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ProjectileClass;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GunOffset_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_GunOffset;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseLookUpRate_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseLookUpRate;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseTurnRate_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseTurnRate;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_L_MotionController_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_L_MotionController;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_R_MotionController_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_R_MotionController;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FirstPersonCameraComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FirstPersonCameraComponent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_VR_MuzzleLocation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_VR_MuzzleLocation;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_VR_Gun_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_VR_Gun;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FP_MuzzleLocation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FP_MuzzleLocation;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FP_Gun_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FP_Gun;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Mesh1P_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Mesh1P;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
+		static const UE4CodeGen_Private::FClassParams ClassParams;
+	};
+	UObject* (*const Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::DependentSingletons[])() = {
+		(UObject* (*)())Z_Construct_UClass_ACharacter,
+		(UObject* (*)())Z_Construct_UPackage__Script_ParkourPuzzler,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::Class_MetaDataParams[] = {
+		{ "HideCategories", "Navigation" },
+		{ "IncludePath", "ParkourPuzzlerCharacter.h" },
+		{ "ModuleRelativePath", "ParkourPuzzlerCharacter.h" },
+	};
+#endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_bUsingMotionControllers_MetaData[] = {
+		{ "Category", "Gameplay" },
+		{ "Comment", "/** Whether to use motion controller location for aiming. */" },
+		{ "ModuleRelativePath", "ParkourPuzzlerCharacter.h" },
+		{ "ToolTip", "Whether to use motion controller location for aiming." },
+	};
+#endif
+	void Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_bUsingMotionControllers_SetBit(void* Obj)
+	{
+		((AParkourPuzzlerCharacter*)Obj)->bUsingMotionControllers = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_bUsingMotionControllers = { "bUsingMotionControllers", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool , RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(uint8), sizeof(AParkourPuzzlerCharacter), &Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_bUsingMotionControllers_SetBit, METADATA_PARAMS(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_bUsingMotionControllers_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_bUsingMotionControllers_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FireAnimation_MetaData[] = {
+		{ "Category", "Gameplay" },
+		{ "Comment", "/** AnimMontage to play each time we fire */" },
+		{ "ModuleRelativePath", "ParkourPuzzlerCharacter.h" },
+		{ "ToolTip", "AnimMontage to play each time we fire" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FireAnimation = { "FireAnimation", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParkourPuzzlerCharacter, FireAnimation), Z_Construct_UClass_UAnimMontage_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FireAnimation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FireAnimation_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FireSound_MetaData[] = {
+		{ "Category", "Gameplay" },
+		{ "Comment", "/** Sound to play each time we fire */" },
+		{ "ModuleRelativePath", "ParkourPuzzlerCharacter.h" },
+		{ "ToolTip", "Sound to play each time we fire" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FireSound = { "FireSound", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParkourPuzzlerCharacter, FireSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FireSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FireSound_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_ProjectileClass_MetaData[] = {
+		{ "Category", "Projectile" },
+		{ "Comment", "/** Projectile class to spawn */" },
+		{ "ModuleRelativePath", "ParkourPuzzlerCharacter.h" },
+		{ "ToolTip", "Projectile class to spawn" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_ProjectileClass = { "ProjectileClass", nullptr, (EPropertyFlags)0x0014000000010001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParkourPuzzlerCharacter, ProjectileClass), Z_Construct_UClass_AParkourPuzzlerProjectile_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_ProjectileClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_ProjectileClass_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_GunOffset_MetaData[] = {
+		{ "Category", "Gameplay" },
+		{ "Comment", "/** Gun muzzle's offset from the characters location */" },
+		{ "ModuleRelativePath", "ParkourPuzzlerCharacter.h" },
+		{ "ToolTip", "Gun muzzle's offset from the characters location" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_GunOffset = { "GunOffset", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParkourPuzzlerCharacter, GunOffset), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_GunOffset_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_GunOffset_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_BaseLookUpRate_MetaData[] = {
+		{ "Category", "Camera" },
+		{ "Comment", "/** Base look up/down rate, in deg/sec. Other scaling may affect final rate. */" },
+		{ "ModuleRelativePath", "ParkourPuzzlerCharacter.h" },
+		{ "ToolTip", "Base look up/down rate, in deg/sec. Other scaling may affect final rate." },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_BaseLookUpRate = { "BaseLookUpRate", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParkourPuzzlerCharacter, BaseLookUpRate), METADATA_PARAMS(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_BaseLookUpRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_BaseLookUpRate_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_BaseTurnRate_MetaData[] = {
+		{ "Category", "Camera" },
+		{ "Comment", "/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */" },
+		{ "ModuleRelativePath", "ParkourPuzzlerCharacter.h" },
+		{ "ToolTip", "Base turn rate, in deg/sec. Other scaling may affect final turn rate." },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_BaseTurnRate = { "BaseTurnRate", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParkourPuzzlerCharacter, BaseTurnRate), METADATA_PARAMS(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_BaseTurnRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_BaseTurnRate_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_L_MotionController_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "ParkourPuzzlerCharacter" },
+		{ "Comment", "/** Motion controller (left hand) */" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ParkourPuzzlerCharacter.h" },
+		{ "ToolTip", "Motion controller (left hand)" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_L_MotionController = { "L_MotionController", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParkourPuzzlerCharacter, L_MotionController), Z_Construct_UClass_UMotionControllerComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_L_MotionController_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_L_MotionController_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_R_MotionController_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "ParkourPuzzlerCharacter" },
+		{ "Comment", "/** Motion controller (right hand) */" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ParkourPuzzlerCharacter.h" },
+		{ "ToolTip", "Motion controller (right hand)" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_R_MotionController = { "R_MotionController", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParkourPuzzlerCharacter, R_MotionController), Z_Construct_UClass_UMotionControllerComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_R_MotionController_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_R_MotionController_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FirstPersonCameraComponent_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Camera" },
+		{ "Comment", "/** First person camera */" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ParkourPuzzlerCharacter.h" },
+		{ "ToolTip", "First person camera" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FirstPersonCameraComponent = { "FirstPersonCameraComponent", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParkourPuzzlerCharacter, FirstPersonCameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FirstPersonCameraComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FirstPersonCameraComponent_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_VR_MuzzleLocation_MetaData[] = {
+		{ "Category", "Mesh" },
+		{ "Comment", "/** Location on VR gun mesh where projectiles should spawn. */" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ParkourPuzzlerCharacter.h" },
+		{ "ToolTip", "Location on VR gun mesh where projectiles should spawn." },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_VR_MuzzleLocation = { "VR_MuzzleLocation", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParkourPuzzlerCharacter, VR_MuzzleLocation), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_VR_MuzzleLocation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_VR_MuzzleLocation_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_VR_Gun_MetaData[] = {
+		{ "Category", "Mesh" },
+		{ "Comment", "/** Gun mesh: VR view (attached to the VR controller directly, no arm, just the actual gun) */" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ParkourPuzzlerCharacter.h" },
+		{ "ToolTip", "Gun mesh: VR view (attached to the VR controller directly, no arm, just the actual gun)" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_VR_Gun = { "VR_Gun", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParkourPuzzlerCharacter, VR_Gun), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_VR_Gun_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_VR_Gun_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FP_MuzzleLocation_MetaData[] = {
+		{ "Category", "Mesh" },
+		{ "Comment", "/** Location on gun mesh where projectiles should spawn. */" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ParkourPuzzlerCharacter.h" },
+		{ "ToolTip", "Location on gun mesh where projectiles should spawn." },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FP_MuzzleLocation = { "FP_MuzzleLocation", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParkourPuzzlerCharacter, FP_MuzzleLocation), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FP_MuzzleLocation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FP_MuzzleLocation_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FP_Gun_MetaData[] = {
+		{ "Category", "Mesh" },
+		{ "Comment", "/** Gun mesh: 1st person view (seen only by self) */" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ParkourPuzzlerCharacter.h" },
+		{ "ToolTip", "Gun mesh: 1st person view (seen only by self)" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FP_Gun = { "FP_Gun", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParkourPuzzlerCharacter, FP_Gun), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FP_Gun_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FP_Gun_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_Mesh1P_MetaData[] = {
+		{ "Category", "Mesh" },
+		{ "Comment", "/** Pawn mesh: 1st person view (arms; seen only by self) */" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "ParkourPuzzlerCharacter.h" },
+		{ "ToolTip", "Pawn mesh: 1st person view (arms; seen only by self)" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_Mesh1P = { "Mesh1P", nullptr, (EPropertyFlags)0x00400000000b0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AParkourPuzzlerCharacter, Mesh1P), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_Mesh1P_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_Mesh1P_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_bUsingMotionControllers,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FireAnimation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FireSound,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_ProjectileClass,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_GunOffset,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_BaseLookUpRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_BaseTurnRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_L_MotionController,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_R_MotionController,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FirstPersonCameraComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_VR_MuzzleLocation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_VR_Gun,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FP_MuzzleLocation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_FP_Gun,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::NewProp_Mesh1P,
+	};
+	const FCppClassTypeInfoStatic Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<AParkourPuzzlerCharacter>::IsAbstract,
+	};
+	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::ClassParams = {
+		&AParkourPuzzlerCharacter::StaticClass,
+		"Game",
+		&StaticCppClassTypeInfo,
+		DependentSingletons,
+		nullptr,
+		Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::PropPointers,
+		nullptr,
+		UE_ARRAY_COUNT(DependentSingletons),
+		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::PropPointers),
+		0,
+		0x008000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::Class_MetaDataParams))
+	};
 	UClass* Z_Construct_UClass_AParkourPuzzlerCharacter()
 	{
-		static UClass* OuterClass = NULL;
+		static UClass* OuterClass = nullptr;
 		if (!OuterClass)
 		{
-			Z_Construct_UClass_ACharacter();
-			Z_Construct_UPackage__Script_ParkourPuzzler();
-			OuterClass = AParkourPuzzlerCharacter::StaticClass();
-			if (!(OuterClass->ClassFlags & CLASS_Constructed))
-			{
-				UObjectForceRegistration(OuterClass);
-				OuterClass->ClassFlags |= (EClassFlags)0x20800080u;
-
-
-				CPP_BOOL_PROPERTY_BITMASK_STRUCT(bUsingMotionControllers, AParkourPuzzlerCharacter);
-				UProperty* NewProp_bUsingMotionControllers = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("bUsingMotionControllers"), RF_Public|RF_Transient|RF_MarkAsNative) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(bUsingMotionControllers, AParkourPuzzlerCharacter), 0x0010000000000005, CPP_BOOL_PROPERTY_BITMASK(bUsingMotionControllers, AParkourPuzzlerCharacter), sizeof(uint8), false);
-				UProperty* NewProp_FireAnimation = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("FireAnimation"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(FireAnimation, AParkourPuzzlerCharacter), 0x0010000000000005, Z_Construct_UClass_UAnimMontage_NoRegister());
-				UProperty* NewProp_FireSound = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("FireSound"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(FireSound, AParkourPuzzlerCharacter), 0x0010000000000005, Z_Construct_UClass_USoundBase_NoRegister());
-				UProperty* NewProp_ProjectileClass = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("ProjectileClass"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(ProjectileClass, AParkourPuzzlerCharacter), 0x0014000000010001, Z_Construct_UClass_AParkourPuzzlerProjectile_NoRegister(), Z_Construct_UClass_UClass());
-				UProperty* NewProp_GunOffset = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("GunOffset"), RF_Public|RF_Transient|RF_MarkAsNative) UStructProperty(CPP_PROPERTY_BASE(GunOffset, AParkourPuzzlerCharacter), 0x0010000000000005, Z_Construct_UScriptStruct_FVector());
-				UProperty* NewProp_BaseLookUpRate = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BaseLookUpRate"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(BaseLookUpRate, AParkourPuzzlerCharacter), 0x0010000000020015);
-				UProperty* NewProp_BaseTurnRate = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("BaseTurnRate"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(BaseTurnRate, AParkourPuzzlerCharacter), 0x0010000000020015);
-				UProperty* NewProp_L_MotionController = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("L_MotionController"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(L_MotionController, AParkourPuzzlerCharacter), 0x00400000000a001d, Z_Construct_UClass_UMotionControllerComponent_NoRegister());
-				UProperty* NewProp_R_MotionController = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("R_MotionController"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(R_MotionController, AParkourPuzzlerCharacter), 0x00400000000a001d, Z_Construct_UClass_UMotionControllerComponent_NoRegister());
-				UProperty* NewProp_FirstPersonCameraComponent = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("FirstPersonCameraComponent"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(FirstPersonCameraComponent, AParkourPuzzlerCharacter), 0x00400000000a001d, Z_Construct_UClass_UCameraComponent_NoRegister());
-				UProperty* NewProp_VR_MuzzleLocation = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("VR_MuzzleLocation"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(VR_MuzzleLocation, AParkourPuzzlerCharacter), 0x00400000000b0009, Z_Construct_UClass_USceneComponent_NoRegister());
-				UProperty* NewProp_VR_Gun = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("VR_Gun"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(VR_Gun, AParkourPuzzlerCharacter), 0x00400000000b0009, Z_Construct_UClass_USkeletalMeshComponent_NoRegister());
-				UProperty* NewProp_FP_MuzzleLocation = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("FP_MuzzleLocation"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(FP_MuzzleLocation, AParkourPuzzlerCharacter), 0x00400000000b0009, Z_Construct_UClass_USceneComponent_NoRegister());
-				UProperty* NewProp_FP_Gun = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("FP_Gun"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(FP_Gun, AParkourPuzzlerCharacter), 0x00400000000b0009, Z_Construct_UClass_USkeletalMeshComponent_NoRegister());
-				UProperty* NewProp_Mesh1P = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("Mesh1P"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(Mesh1P, AParkourPuzzlerCharacter), 0x00400000000b0009, Z_Construct_UClass_USkeletalMeshComponent_NoRegister());
-				OuterClass->ClassConfigName = FName(TEXT("Game"));
-				static TCppClassTypeInfo<TCppClassTypeTraits<AParkourPuzzlerCharacter> > StaticCppClassTypeInfo;
-				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
-				OuterClass->StaticLink();
-#if WITH_METADATA
-				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
-				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
-				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("ParkourPuzzlerCharacter.h"));
-				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("ParkourPuzzlerCharacter.h"));
-				MetaData->SetValue(NewProp_bUsingMotionControllers, TEXT("Category"), TEXT("Gameplay"));
-				MetaData->SetValue(NewProp_bUsingMotionControllers, TEXT("ModuleRelativePath"), TEXT("ParkourPuzzlerCharacter.h"));
-				MetaData->SetValue(NewProp_bUsingMotionControllers, TEXT("ToolTip"), TEXT("Whether to use motion controller location for aiming."));
-				MetaData->SetValue(NewProp_FireAnimation, TEXT("Category"), TEXT("Gameplay"));
-				MetaData->SetValue(NewProp_FireAnimation, TEXT("ModuleRelativePath"), TEXT("ParkourPuzzlerCharacter.h"));
-				MetaData->SetValue(NewProp_FireAnimation, TEXT("ToolTip"), TEXT("AnimMontage to play each time we fire"));
-				MetaData->SetValue(NewProp_FireSound, TEXT("Category"), TEXT("Gameplay"));
-				MetaData->SetValue(NewProp_FireSound, TEXT("ModuleRelativePath"), TEXT("ParkourPuzzlerCharacter.h"));
-				MetaData->SetValue(NewProp_FireSound, TEXT("ToolTip"), TEXT("Sound to play each time we fire"));
-				MetaData->SetValue(NewProp_ProjectileClass, TEXT("Category"), TEXT("Projectile"));
-				MetaData->SetValue(NewProp_ProjectileClass, TEXT("ModuleRelativePath"), TEXT("ParkourPuzzlerCharacter.h"));
-				MetaData->SetValue(NewProp_ProjectileClass, TEXT("ToolTip"), TEXT("Projectile class to spawn"));
-				MetaData->SetValue(NewProp_GunOffset, TEXT("Category"), TEXT("Gameplay"));
-				MetaData->SetValue(NewProp_GunOffset, TEXT("ModuleRelativePath"), TEXT("ParkourPuzzlerCharacter.h"));
-				MetaData->SetValue(NewProp_GunOffset, TEXT("ToolTip"), TEXT("Gun muzzle's offset from the characters location"));
-				MetaData->SetValue(NewProp_BaseLookUpRate, TEXT("Category"), TEXT("Camera"));
-				MetaData->SetValue(NewProp_BaseLookUpRate, TEXT("ModuleRelativePath"), TEXT("ParkourPuzzlerCharacter.h"));
-				MetaData->SetValue(NewProp_BaseLookUpRate, TEXT("ToolTip"), TEXT("Base look up/down rate, in deg/sec. Other scaling may affect final rate."));
-				MetaData->SetValue(NewProp_BaseTurnRate, TEXT("Category"), TEXT("Camera"));
-				MetaData->SetValue(NewProp_BaseTurnRate, TEXT("ModuleRelativePath"), TEXT("ParkourPuzzlerCharacter.h"));
-				MetaData->SetValue(NewProp_BaseTurnRate, TEXT("ToolTip"), TEXT("Base turn rate, in deg/sec. Other scaling may affect final turn rate."));
-				MetaData->SetValue(NewProp_L_MotionController, TEXT("AllowPrivateAccess"), TEXT("true"));
-				MetaData->SetValue(NewProp_L_MotionController, TEXT("Category"), TEXT("ParkourPuzzlerCharacter"));
-				MetaData->SetValue(NewProp_L_MotionController, TEXT("EditInline"), TEXT("true"));
-				MetaData->SetValue(NewProp_L_MotionController, TEXT("ModuleRelativePath"), TEXT("ParkourPuzzlerCharacter.h"));
-				MetaData->SetValue(NewProp_L_MotionController, TEXT("ToolTip"), TEXT("Motion controller (left hand)"));
-				MetaData->SetValue(NewProp_R_MotionController, TEXT("AllowPrivateAccess"), TEXT("true"));
-				MetaData->SetValue(NewProp_R_MotionController, TEXT("Category"), TEXT("ParkourPuzzlerCharacter"));
-				MetaData->SetValue(NewProp_R_MotionController, TEXT("EditInline"), TEXT("true"));
-				MetaData->SetValue(NewProp_R_MotionController, TEXT("ModuleRelativePath"), TEXT("ParkourPuzzlerCharacter.h"));
-				MetaData->SetValue(NewProp_R_MotionController, TEXT("ToolTip"), TEXT("Motion controller (right hand)"));
-				MetaData->SetValue(NewProp_FirstPersonCameraComponent, TEXT("AllowPrivateAccess"), TEXT("true"));
-				MetaData->SetValue(NewProp_FirstPersonCameraComponent, TEXT("Category"), TEXT("Camera"));
-				MetaData->SetValue(NewProp_FirstPersonCameraComponent, TEXT("EditInline"), TEXT("true"));
-				MetaData->SetValue(NewProp_FirstPersonCameraComponent, TEXT("ModuleRelativePath"), TEXT("ParkourPuzzlerCharacter.h"));
-				MetaData->SetValue(NewProp_FirstPersonCameraComponent, TEXT("ToolTip"), TEXT("First person camera"));
-				MetaData->SetValue(NewProp_VR_MuzzleLocation, TEXT("Category"), TEXT("Mesh"));
-				MetaData->SetValue(NewProp_VR_MuzzleLocation, TEXT("EditInline"), TEXT("true"));
-				MetaData->SetValue(NewProp_VR_MuzzleLocation, TEXT("ModuleRelativePath"), TEXT("ParkourPuzzlerCharacter.h"));
-				MetaData->SetValue(NewProp_VR_MuzzleLocation, TEXT("ToolTip"), TEXT("Location on VR gun mesh where projectiles should spawn."));
-				MetaData->SetValue(NewProp_VR_Gun, TEXT("Category"), TEXT("Mesh"));
-				MetaData->SetValue(NewProp_VR_Gun, TEXT("EditInline"), TEXT("true"));
-				MetaData->SetValue(NewProp_VR_Gun, TEXT("ModuleRelativePath"), TEXT("ParkourPuzzlerCharacter.h"));
-				MetaData->SetValue(NewProp_VR_Gun, TEXT("ToolTip"), TEXT("Gun mesh: VR view (attached to the VR controller directly, no arm, just the actual gun)"));
-				MetaData->SetValue(NewProp_FP_MuzzleLocation, TEXT("Category"), TEXT("Mesh"));
-				MetaData->SetValue(NewProp_FP_MuzzleLocation, TEXT("EditInline"), TEXT("true"));
-				MetaData->SetValue(NewProp_FP_MuzzleLocation, TEXT("ModuleRelativePath"), TEXT("ParkourPuzzlerCharacter.h"));
-				MetaData->SetValue(NewProp_FP_MuzzleLocation, TEXT("ToolTip"), TEXT("Location on gun mesh where projectiles should spawn."));
-				MetaData->SetValue(NewProp_FP_Gun, TEXT("Category"), TEXT("Mesh"));
-				MetaData->SetValue(NewProp_FP_Gun, TEXT("EditInline"), TEXT("true"));
-				MetaData->SetValue(NewProp_FP_Gun, TEXT("ModuleRelativePath"), TEXT("ParkourPuzzlerCharacter.h"));
-				MetaData->SetValue(NewProp_FP_Gun, TEXT("ToolTip"), TEXT("Gun mesh: 1st person view (seen only by self)"));
-				MetaData->SetValue(NewProp_Mesh1P, TEXT("Category"), TEXT("Mesh"));
-				MetaData->SetValue(NewProp_Mesh1P, TEXT("EditInline"), TEXT("true"));
-				MetaData->SetValue(NewProp_Mesh1P, TEXT("ModuleRelativePath"), TEXT("ParkourPuzzlerCharacter.h"));
-				MetaData->SetValue(NewProp_Mesh1P, TEXT("ToolTip"), TEXT("Pawn mesh: 1st person view (arms; seen only by self)"));
-#endif
-			}
+			UE4CodeGen_Private::ConstructUClass(OuterClass, Z_Construct_UClass_AParkourPuzzlerCharacter_Statics::ClassParams);
 		}
-		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AParkourPuzzlerCharacter, 3367158279);
+	IMPLEMENT_CLASS(AParkourPuzzlerCharacter, 2922850198);
+	template<> PARKOURPUZZLER_API UClass* StaticClass<AParkourPuzzlerCharacter>()
+	{
+		return AParkourPuzzlerCharacter::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AParkourPuzzlerCharacter(Z_Construct_UClass_AParkourPuzzlerCharacter, &AParkourPuzzlerCharacter::StaticClass, TEXT("/Script/ParkourPuzzler"), TEXT("AParkourPuzzlerCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AParkourPuzzlerCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)
 #endif
-PRAGMA_ENABLE_OPTIMIZATION

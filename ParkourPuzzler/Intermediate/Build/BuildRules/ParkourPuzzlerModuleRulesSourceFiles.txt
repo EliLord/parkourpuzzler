@@ -1,3 +1,0 @@
-C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Source\ParkourPuzzler\ParkourPuzzler.Build.cs
-C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Source\ParkourPuzzler.Target.cs
-C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Source\ParkourPuzzlerEditor.Target.cs

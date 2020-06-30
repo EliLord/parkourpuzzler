@@ -1,0 +1,17 @@
+C:\UE4Projects\ParkourPuzzler\Intermediate\Build\Win64\UE4Editor\Development\ParkourPuzzler\Definitions.ParkourPuzzler.h
+C:\UE4Projects\ParkourPuzzler\Source\ParkourPuzzler\ParkourPuzzlerHUD.h
+C:\UE4\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+C:\UE4\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+C:\UE4\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+C:\UE4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+C:\UE4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+C:\UE4Projects\ParkourPuzzler\Intermediate\Build\Win64\UE4Editor\Inc\ParkourPuzzler\ParkourPuzzlerHUD.generated.h
+C:\UE4\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/Canvas.h
+C:\UE4\UE_4.25\Engine\Source\Runtime\Engine\Public\CanvasItem.h
+C:\UE4\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/Font.h
+C:\UE4\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/FontImportOptions.h
+C:\UE4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\FontImportOptions.generated.h
+C:\UE4\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Fonts/FontProviderInterface.h
+C:\UE4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\FontProviderInterface.generated.h
+C:\UE4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Font.generated.h
+C:\UE4\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Canvas.generated.h

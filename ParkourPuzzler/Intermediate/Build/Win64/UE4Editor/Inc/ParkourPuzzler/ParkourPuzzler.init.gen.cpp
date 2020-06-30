@@ -1,11 +1,10 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "GeneratedCppIncludes.h"
-PRAGMA_DISABLE_OPTIMIZATION
+#include "UObject/GeneratedCppIncludes.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -17,15 +16,16 @@ void EmptyLinkFunctionForGeneratedCodeParkourPuzzler_init() {}
 		static UPackage* ReturnPackage = nullptr;
 		if (!ReturnPackage)
 		{
-			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), nullptr, FName(TEXT("/Script/ParkourPuzzler")), false, false));
-			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
-			FGuid Guid;
-			Guid.A = 0xB9694B87;
-			Guid.B = 0x9BC554D6;
-			Guid.C = 0x00000000;
-			Guid.D = 0x00000000;
-			ReturnPackage->SetGuid(Guid);
-
+			static const UE4CodeGen_Private::FPackageParams PackageParams = {
+				"/Script/ParkourPuzzler",
+				nullptr,
+				0,
+				PKG_CompiledIn | 0x00000000,
+				0xD0456387,
+				0xAF3E5070,
+				METADATA_PARAMS(nullptr, 0)
+			};
+			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
 		}
 		return ReturnPackage;
 	}
@@ -33,4 +33,3 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)
 #endif
-PRAGMA_ENABLE_OPTIMIZATION

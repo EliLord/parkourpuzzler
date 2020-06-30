@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\UE4Projects\\ParkourPuzzler\\Source\\ParkourPuzzler\\ParkourPuzzler.Build.cs",
+		"C:\\UE4Projects\\ParkourPuzzler\\Source\\ParkourPuzzler.Target.cs",
+		"C:\\UE4Projects\\ParkourPuzzler\\Source\\ParkourPuzzlerEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.1"
+}

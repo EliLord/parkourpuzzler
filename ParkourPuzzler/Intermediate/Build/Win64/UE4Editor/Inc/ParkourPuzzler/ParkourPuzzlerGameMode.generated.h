@@ -1,11 +1,11 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-#include "ObjectMacros.h"
-#include "ScriptMacros.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef PARKOURPUZZLER_ParkourPuzzlerGameMode_generated_h
@@ -13,26 +13,25 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PARKOURPUZZLER_ParkourPuzzlerGameMode_generated_h
 
+#define ParkourPuzzler_Source_ParkourPuzzler_ParkourPuzzlerGameMode_h_12_SPARSE_DATA
 #define ParkourPuzzler_Source_ParkourPuzzler_ParkourPuzzlerGameMode_h_12_RPC_WRAPPERS
 #define ParkourPuzzler_Source_ParkourPuzzler_ParkourPuzzlerGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS
 #define ParkourPuzzler_Source_ParkourPuzzler_ParkourPuzzlerGameMode_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAParkourPuzzlerGameMode(); \
-	friend PARKOURPUZZLER_API class UClass* Z_Construct_UClass_AParkourPuzzlerGameMode(); \
+	friend struct Z_Construct_UClass_AParkourPuzzlerGameMode_Statics; \
 public: \
-	DECLARE_CLASS(AParkourPuzzlerGameMode, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient), 0, TEXT("/Script/ParkourPuzzler"), PARKOURPUZZLER_API) \
-	DECLARE_SERIALIZER(AParkourPuzzlerGameMode) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(AParkourPuzzlerGameMode, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/ParkourPuzzler"), PARKOURPUZZLER_API) \
+	DECLARE_SERIALIZER(AParkourPuzzlerGameMode)
 
 
 #define ParkourPuzzler_Source_ParkourPuzzler_ParkourPuzzlerGameMode_h_12_INCLASS \
 private: \
 	static void StaticRegisterNativesAParkourPuzzlerGameMode(); \
-	friend PARKOURPUZZLER_API class UClass* Z_Construct_UClass_AParkourPuzzlerGameMode(); \
+	friend struct Z_Construct_UClass_AParkourPuzzlerGameMode_Statics; \
 public: \
-	DECLARE_CLASS(AParkourPuzzlerGameMode, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient), 0, TEXT("/Script/ParkourPuzzler"), PARKOURPUZZLER_API) \
-	DECLARE_SERIALIZER(AParkourPuzzlerGameMode) \
-	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+	DECLARE_CLASS(AParkourPuzzlerGameMode, AGameModeBase, COMPILED_IN_FLAGS(0 | CLASS_Transient | CLASS_Config), CASTCLASS_None, TEXT("/Script/ParkourPuzzler"), PARKOURPUZZLER_API) \
+	DECLARE_SERIALIZER(AParkourPuzzlerGameMode)
 
 
 #define ParkourPuzzler_Source_ParkourPuzzler_ParkourPuzzlerGameMode_h_12_STANDARD_CONSTRUCTORS \
@@ -65,6 +64,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AParkourPuzzlerGameMode); \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	ParkourPuzzler_Source_ParkourPuzzler_ParkourPuzzlerGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
+	ParkourPuzzler_Source_ParkourPuzzler_ParkourPuzzlerGameMode_h_12_SPARSE_DATA \
 	ParkourPuzzler_Source_ParkourPuzzler_ParkourPuzzlerGameMode_h_12_RPC_WRAPPERS \
 	ParkourPuzzler_Source_ParkourPuzzler_ParkourPuzzlerGameMode_h_12_INCLASS \
 	ParkourPuzzler_Source_ParkourPuzzler_ParkourPuzzlerGameMode_h_12_STANDARD_CONSTRUCTORS \
@@ -76,12 +76,15 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	ParkourPuzzler_Source_ParkourPuzzler_ParkourPuzzlerGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
+	ParkourPuzzler_Source_ParkourPuzzler_ParkourPuzzlerGameMode_h_12_SPARSE_DATA \
 	ParkourPuzzler_Source_ParkourPuzzler_ParkourPuzzlerGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	ParkourPuzzler_Source_ParkourPuzzler_ParkourPuzzlerGameMode_h_12_INCLASS_NO_PURE_DECLS \
 	ParkourPuzzler_Source_ParkourPuzzler_ParkourPuzzlerGameMode_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
+
+template<> PARKOURPUZZLER_API UClass* StaticClass<class AParkourPuzzlerGameMode>();
 
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID ParkourPuzzler_Source_ParkourPuzzler_ParkourPuzzlerGameMode_h
