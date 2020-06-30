@@ -1,2 +1,2 @@
-C:\UE4Projects\ParkourPuzzler\Intermediate\Build\Win64\UE4Editor\Development\ParkourPuzzler\Definitions.ParkourPuzzler.h
-C:\UE4Projects\ParkourPuzzler\Source\ParkourPuzzler\ParkourPuzzler.h
+C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Intermediate\Build\Win64\UE4Editor\Development\ParkourPuzzler\Definitions.ParkourPuzzler.h
+C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Source\ParkourPuzzler\ParkourPuzzler.h

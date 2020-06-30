@@ -32,8 +32,8 @@
 /wd4244
 /wd4838
 /I .
-/I C:\UE4Projects\ParkourPuzzler\Intermediate\Build\Win64\UE4Editor\Inc\ParkourPuzzler
-/I C:\UE4Projects\ParkourPuzzler\Source
+/I "C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Intermediate\Build\Win64\UE4Editor\Inc\ParkourPuzzler"
+/I "C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Source"
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -257,18 +257,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\UE4Projects\ParkourPuzzler\Intermediate\Build\Win64\ParkourPuzzlerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\UE4Projects\ParkourPuzzler\Intermediate\Build\Win64\ParkourPuzzlerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\UE4Projects\ParkourPuzzler\Intermediate\Build\Win64\ParkourPuzzlerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\UE4Projects\ParkourPuzzler\Source\ParkourPuzzler\ParkourPuzzlerCharacter.cpp"
-/FI"C:\UE4Projects\ParkourPuzzler\Intermediate\Build\Win64\UE4Editor\Development\ParkourPuzzler\Definitions.ParkourPuzzler.h"
-/Fo"C:\UE4Projects\ParkourPuzzler\Intermediate\Build\Win64\UE4Editor\Development\ParkourPuzzler\ParkourPuzzlerCharacter.cpp.obj"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
+/FI"C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Intermediate\Build\Win64\ParkourPuzzlerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Intermediate\Build\Win64\ParkourPuzzlerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Intermediate\Build\Win64\ParkourPuzzlerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Source\ParkourPuzzler\ParkourPuzzlerCharacter.cpp"
+/FI"C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Intermediate\Build\Win64\UE4Editor\Development\ParkourPuzzler\Definitions.ParkourPuzzler.h"
+/Fo"C:\Users\Eli Lord\Documents\parkourpuzzler\ParkourPuzzler\Intermediate\Build\Win64\UE4Editor\Development\ParkourPuzzler\ParkourPuzzlerCharacter.cpp.obj"
 /TP
 /GR-
 /W4
